@@ -22,10 +22,28 @@
         "width=device-width, initial-scale=1, user-scalable=no">
   <link rel="stylesheet" href="assets/css/academicons.min.css">
   <link rel="stylesheet" href="assets/css/main.css">
+  <style>
+        #canvas {
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 10em;//250px;/*100%;*/
+            touch-action: none;
+	    //opacity: 0.95;
+	    z-index: 1;
+        }
+	@media screen and (max-width: 1280px) {
+	    #canvas {
+		display: none;
+	    }
+	}
+  </style>
 </head>
 <body class="is-preload">
   <!-- Header -->
-  <header id="header">
+  <header id="header" style="z-index: 2">
     <div class="inner">
       <!-- <a href="#" class="image avatar"><img src="./img/face.png"
       alt=""></a> -->
@@ -78,6 +96,11 @@
       <!-- <header class="major">
         <h2></h2>
       </header> -->
+      <div><!-- style="margin-bottom: 200px;">-->
+      <div id="progress"></div>
+      <div id="message"></div>
+      <canvas id="canvas"></canvas>
+      </div>
       <h2 style="display:inline">Sosuke Kobayashi</h2><!--
         <a href="https://scholar.google.com/citations?user=VY6PqvsAAAAJ" class="icon brands fa-google"><span class="label">Google Scholar</span></a>
         <a href="https://github.com/soskek" class="icon brands fa-github"><span class="label">Github</span></a>
@@ -989,5 +1012,6 @@
   <script src="assets/js/breakpoints.min.js"></script> 
   <script src="assets/js/util.js"></script> 
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/sp.js"></script>
 </body>
 </html>

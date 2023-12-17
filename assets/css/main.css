@@ -2684,7 +2684,8 @@ input, select, textarea {
 	#main {
 		margin-left: 9%;
 		max-width: 64em;
-		padding: 8em 4em 4em 4em;
+		padding: 12em 4em 4em 4em;
+		/*padding: 8em 4em 4em 4em; no gaussian splatting */
 		width: calc(100% - 9%);
 	}
 
