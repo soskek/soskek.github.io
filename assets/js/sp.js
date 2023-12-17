@@ -679,6 +679,14 @@ void main () {
 let isCancelled = false;
 
 async function main(canvas_id, splat_file) {
+    window.onload = function() {
+	var mainStyle = window.getComputedStyle(document.getElementById('main'));
+	//var paddingTop = mainStyle.getPropertyValue('padding-top');
+	var paddingTop = parseFloat(mainStyle.getPropertyValue('padding-top'));
+	var fontSize = parseFloat(mainStyle.getPropertyValue('font-size'));
+	var newHeight = paddingTop - fontSize;
+	document.getElementById('canvas').style.height = Math.max(newHeight, 0) + 'px';
+    };
     let fr1_viewmat = [
         0.7904178827384323,
         0.24247926413912008,
@@ -769,7 +777,7 @@ async function main(canvas_id, splat_file) {
         0,//
         0,
         0,
-        2.4,
+        5.4,
         1,
     ]
 
