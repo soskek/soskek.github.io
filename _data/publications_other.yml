@@ -1,0 +1,174 @@
+- title: "事前学習における学習率スケジューラが事後学習後の性能に与える影響"
+  authors: "矢野一樹, 清野舜, <u>小林颯介</u>, 高瀬翔, 鈴木潤"
+  venue: "In Proceedings of 言語処理学会第32回年次大会, Mar. 2026."
+
+- title: "新規視点画像生成による車載3D物体検出器のカメラ高データ増強"
+  authors: "髙橋友紀子, 徐天涵, <u>小林颯介</u>, 加藤大晴, 髙濱敦, 加藤雄大, 横山美優, 光森卓, 高椋佐和"
+  venue: "In Proceedings of 画像の認識・理解シンポジウム MIRU2025, July 2025."
+
+- title: "モデル拡張を用いた段階的事前学習によるモデル系列の効率的な構築"
+  authors: "矢野一樹, 高瀬翔, <u>小林颯介</u>, 清野舜, 鈴木潤"
+  venue: "In Proceedings of 言語処理学会第31回年次大会, Mar. 2025."
+  links:
+    - name: "paper"
+      url: "https://www.anlp.jp/proceedings/annual_meeting/2025/pdf_dir/C8-4.pdf"
+
+- title: "ユーザ教示による Structure-from-Motion 再構成エラーの修正"
+  authors: "金澤爽太郎, 周矜瑶, 菊池悠太, <u>小林颯介</u>, 李淳雨, マートリッチファブリス, 五十嵐健夫, 樋口啓太"
+  venue: "In Proceedings of INTERACTION2025, Mar. 2025."
+  links:
+    - name: "abstract"
+      url: "https://confman.interaction-ipsj.org/cacheimg/i2025/export/webcat_0.html#pid06"
+
+- title: "四次元再構成視聴におけるインタラクティブなカメラサーフェスの提案"
+  authors: "元村愛美, 菊池悠太, <u>小林颯介</u>, Fabrice Matulic, 五十嵐健夫, 樋口啓太"
+  venue: "In Proceedings of INTERACTION2025, Mar. 2025."
+  links:
+    - name: "abstract"
+      url: "https://confman.interaction-ipsj.org/cacheimg/i2025/export/webcat_2.html#pid2B34"
+
+- title: "大規模言語モデル事前学習の安定化"
+  authors: "高瀬翔, 清野舜, <u>小林颯介</u>, 鈴木潤"
+  award: "委員特別賞; Special Committee Award"
+  venue: "In Proceedings of 言語処理学会第30回年次大会, Mar. 2024."
+  links:
+    - name: "paper"
+      url: "https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/A11-2.pdf"
+
+- title: "Transformer を多層にする際の勾配消失問題と解決法について"
+  authors: "高瀬翔, 清野舜, <u>小林颯介</u>, 鈴木潤"
+  award: "優秀賞; Outstanding Paper Award"
+  venue: "In Proceedings of 言語処理学会第28回年次大会, Mar. 2022."
+  links:
+    - name: "paper"
+      url: "https://www.anlp.jp/proceedings/annual_meeting/2022/pdf_dir/A2-5.pdf"
+
+- title: "シフト付き絶対位置埋め込み"
+  authors: "清野舜, <u>小林颯介</u>, 鈴木潤, 乾健太郎"
+  award: "若手奨励賞; Young Researcher Award"
+  venue: "In Proceedings of 言語処理学会第28回年次大会, Mar. 2022."
+  links:
+    - name: "paper"
+      url: "https://www.anlp.jp/proceedings/annual_meeting/2022/pdf_dir/PH2-7.pdf"
+
+- title: "事例ベース依存構造解析のための依存関係表現学習"
+  authors: "大内啓樹, 鈴木潤, <u>小林颯介</u>, 横井祥, 栗林樹生, 吉川将司, 乾健太郎"
+  venue: "In Proceedings of 言語処理学会第27回年次大会, Mar. 2021."
+  links:
+    - name: "paper"
+      url: "https://www.anlp.jp/proceedings/annual_meeting/2021/pdf_dir/D3-4.pdf"
+
+- title: "単一事例エキスパートの統合によるドメイン適応"
+  authors: "清野舜, <u>小林颯介</u>, 鈴木潤, 乾健太郎"
+  venue: "In Proceedings of 言語処理学会第27回年次大会, Mar. 2021."
+  links:
+    - name: "paper"
+      url: "https://www.anlp.jp/proceedings/annual_meeting/2021/pdf_dir/B1-4.pdf"
+
+- title: "スパン間の類似性に基づく事例ベース構造予測"
+  authors: "大内啓樹, 鈴木潤, <u>小林颯介</u>, 横井祥, 栗林樹生, 乾健太郎"
+  venue: "In Proceedings of 言語処理学会第26回年次大会, Mar. 2020."
+  links:
+    - name: "paper"
+      url: "https://www.anlp.jp/proceedings/annual_meeting/2020/pdf_dir/D1-1.pdf"
+
+- title: "実世界での話し言葉指示による物体移動：深層学習による画像・言語理解"
+  authors: "高橋城志*, 羽鳥潤*, 菊池悠太*, <u>小林颯介</u>*, 坪井祐太*, 海野裕也*, 中島統太郎, 福田昌昭, Wilson Ko, Jethro Tan (* equally contributed)"
+  award: "研究奨励賞; Young Investigation Excellence Award"
+  venue: "In Proceedings of 第36回日本ロボット学会学術講演会, Sep. 2018."
+  links:
+    - name: "paper"
+      url: "./publications/rsj2018-nlp-robot.pdf"
+
+- title: "カーネル法に基づく疎な言語表現のための高速計算可能な共起尺度"
+  authors: "横井祥, <u>小林颯介</u>, 福水健次, 乾健太郎"
+  award: "全国大会優秀賞; JSAI Annual Conference Award"
+  venue: "In Proceedings of 第32回人工知能学会全国大会, June 2018."
+  links:
+    - name: "paper"
+      url: "https://confit.atlas.jp/guide/event-img/jsai2018/1J2-01/public/pdf?type=in"
+
+- title: "スタイルの類似性を捉えた単語ベクトルの教師なし学習"
+  authors: "赤間怜奈, 渡邉研斗, 横井祥, <u>小林颯介</u>, 乾健太郎"
+  award: "全国大会優秀賞; JSAI Annual Conference Award"
+  venue: "In Proceedings of 第32回人工知能学会全国大会, June 2018."
+  links:
+    - name: "paper"
+      url: "https://confit.atlas.jp/guide/event-img/jsai2018/1N2-03/public/pdf?type=in"
+
+- title: "実世界におけるインタラクティブな物体指示"
+  authors: "羽鳥潤*, 菊池悠太*, <u>小林颯介</u>*, 高橋城志*, 坪井祐太*, 海野裕也*, Wilson Ko, Jethro Tan (* equally contributed)"
+  venue: "In Proceedings of 言語処理学会第24回年次大会, Mar. 2018."
+  links:
+    - name: "paper"
+      url: "https://anlp.jp/proceedings/annual_meeting/2018/pdf_dir/C5-1.pdf"
+
+- title: "カーネル法に基づく疎な言語表現のための共起尺度"
+  authors: "横井祥, <u>小林颯介</u>, 福水健次, 乾健太郎"
+  venue: "In Proceedings of 言語処理学会第24回年次大会, Mar. 2018."
+  links:
+    - name: "paper"
+      url: "https://anlp.jp/proceedings/annual_meeting/2018/pdf_dir/C7-1.pdf"
+
+- title: "サンプリング戦略に基づく単語ベクトルの意味成分とスタイル成分の分離"
+  authors: "赤間怜奈, 横井祥, 渡邉研斗, <u>小林颯介</u>, 田然, 乾健太郎"
+  venue: "In Proceedings of 言語処理学会第24回年次大会, Mar. 2018."
+  links:
+    - name: "paper"
+      url: "https://anlp.jp/proceedings/annual_meeting/2018/pdf_dir/D4-3.pdf"
+
+- title: "カーネル法に基づく共起尺度"
+  authors: "横井祥, 福水健次, <u>小林颯介</u>, 乾健太郎"
+  venue: "In Proceedings of 第20回情報論的学習理論ワークショップ (IBIS), Nov. 2017."
+  links:
+    - name: "slide"
+      url: "http://www.cl.ecei.tohoku.ac.jp/~yokoi/docs/201711-ibis-poster.pdf"
+
+- title: "対話返答生成における個性の追加反映"
+  authors: "濱田晃一, 藤川和樹, <u>小林颯介</u>, 菊池悠太, 海野裕也, 土田正明"
+  venue: "In Proceedings of 第232回 情報処理学会 自然言語処理研究会, July 2017."
+  links:
+    - name: "paper"
+      url: "https://ipsj.ixsq.nii.ac.jp/ej/index.php?active_action=repository_view_main_item_detail&page_id=13&block_id=8&item_id=182719&item_no=1"
+    - name: "slide"
+      url: "https://www.slideshare.net/hamadakoichi/neural-dialogue-generation"
+    - name: "bib"
+      url: "https://ipsj.ixsq.nii.ac.jp/ej/?action=repository_bibtex&itemId=182719&itemNo=1"
+
+- title: "転移学習を用いた対話応答のスタイル制御"
+  authors: "赤間怜奈, 稲田和明, <u>小林颯介</u>, 佐藤祥多, 乾健太郎"
+  venue: "In Proceedings of 言語処理学会第23回年次大会, Mar. 2017."
+  links:
+    - name: "paper"
+      url: "https://www.anlp.jp/proceedings/annual_meeting/2017/pdf_dir/B3-3.pdf"
+
+- title: "Recognizing Potential Traffic Risks through Logic-based Deep Scene Understanding"
+  authors: "Shunya Maruta, Yasutaka Kuriya, Naoya Inoue, <u>Sosuke Kobayashi</u>, Kentaro Inui"
+  venue: "In Proceedings of Denso Technical Review, 2016. (Modified version of the paper of 22nd ITSWC)"
+  links:
+    - name: "paper"
+      url: "https://ci.nii.ac.jp/naid/40021053584"
+
+- title: "共参照関係に基づく分散表現の共有と動的更新"
+  authors: "<u>小林颯介</u>, 岡崎直観, 乾健太郎"
+  award: "奨励賞; Encouragement Award"
+  venue: "In Proceedings of NLP若手の会 (YANS) 第11回シンポジウム, Aug. 2016."
+
+- title: "談話内における局所文脈の動的分散表現"
+  authors: "<u>小林颯介</u>, 田然, 岡崎直観, 乾健太郎"
+  award: "優秀賞; Outstanding Paper Award"
+  venue: "In Proceedings of 言語処理学会第22回年次大会, Mar. 2016."
+  links:
+    - name: "paper"
+      url: "https://www.anlp.jp/proceedings/annual_meeting/2016/pdf_dir/A7-5.pdf"
+
+- title: "再帰型ニューラルネットワークを用いた対話破綻検出と言語モデルのマルチタスク学習"
+  authors: "<u>小林颯介</u>, 海野裕也, 福田昌昭"
+  venue: "In Proceedings of 第75回 人工知能学会 言語・音声理解と対話処理研究会, Oct. 2015."
+  links:
+    - name: "paper"
+      url: "https://jsai.ixsq.nii.ac.jp/ej/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=760&item_no=1&page_id=13&block_id=23"
+
+- title: "物理モデルと論理推論の統合による運転シーンの潜在的危険の予測"
+  authors: "<u>小林颯介</u>, 井之上直也, 栗谷康隆, 近藤敏之, 安部克則, 奥野英一, 乾健太郎"
+  venue: "In Proceedings of 自動車技術会 2015年春季大会学術講演会講演予稿集, May 2015."

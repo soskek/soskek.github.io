@@ -191,470 +191,53 @@
       <h2>Refereed Publications and Preprints</h2>
       (or see <a href="https://scholar.google.com/citations?user=VY6PqvsAAAAJ" class="icon brands fa-google"><span
           class="label">Google Scholar</span>oogle Scholar</a>)<br><br>
-      <article class="col-12 col-12-xsmall work-item">
-        <h3>Pre-training LLM without Learning Rate Decay Enhances Supervised Fine-Tuning</h3>
-        <p>Kazuki Yano, Shun Kiyono, <u>Sosuke Kobayashi</u>, Sho Takase, Jun Suzuki</p>
-        <p>In Proceedings of International Conference on Learning Representations (ICLR) 2026, Apr. 2026. [<a
-            href="https://openreview.net/forum?id=JnebU2QLdH">paper</a>]</p>
-      </article>
       <div class="row">
+        {% for paper in site.data.publications_refereed %}
         <article class="col-12 col-12-xsmall work-item">
+          {% if paper.title contains "A Study with Context-Free" %}
           <h3>When Does Metadata Conditioning (NOT) Work for Language Model Pre-Training? A Study with Context-Free
             Grammars</h3>
-          <p>Rei Higuchi, Ryotaro Kawata, Naoki Nishikawa, Kazusato Oko, Shoichiro Yamaguchi, <u>Sosuke Kobayashi</u>,
-            Seiya Tokui, Kohei Hayashi, Daisuke Okanohara, Taiji Suzuki</p>
-          <p>In Proceedings of Conference on Language Modeling (COLM) 2025, Oct. 2025. [<a
-              href="https://arxiv.org/abs/2504.17562">arxiv</a>]</p>
-        </article>
-        <article class="col-12 col-12-xsmall work-item">
-          <h3>Efficient Construction of Model Family through Progressive Training Using Model Expansion</h3>
-          <p>Kazuki Yano, Sho Takase, <u>Sosuke Kobayashi</u>, Shun Kiyono, Jun Suzuki</p>
-          <p>In Proceedings of Conference on Language Modeling (COLM) 2025, Oct. 2025. [<a
-              href="https://arxiv.org/abs/2504.00623">arxiv</a>]</p>
-        </article>
-        <article class="col-12 col-12-xsmall work-item">
-          <h3>User-Guided Correction of Reconstruction Errors in Structure-from-Motion</h3>
-          <p>Sotaro Kanazawa, Jinyao Zhou, Yuta Kikuchi, <u>Sosuke Kobayashi</u>, Chunyu Li, Fabrice Matulic, Takeo
-            Igarashi, Keita Higuchi</p>
-          <p>ACM Conference on Intelligent User Interfaces (IUI), Mar. 2025. [<a
-              href="https://dl.acm.org/doi/10.1145/3708359.3712141">paper</a>]</p>
-        </article>
-        <article class="col-12 col-12-xsmall work-item">
-          <h3>Spike No More: Stabilizing the Pre-training of Large Language Models</h3>
-          <p>Sho Takase, Shun Kiyono, <u>Sosuke Kobayashi</u>, Jun Suzuki</p>
-          <p>In Proceedings of Conference on Language Modeling (COLM) 2025, Oct. 2025. (Preprint 2023.) [<a
-              href="https://arxiv.org/abs/2312.16903">arxiv</a>]</p>
-        </article>
-        <article class="col-12 col-12-xsmall work-item">
-          <h3>B2T Connection: Serving Stability and Performance in Deep Transformers</h3>
-          <p>Sho Takase, Shun Kiyono, <u>Sosuke Kobayashi</u>, Jun Suzuki</p>
-          <p>In Proceedings of Findings of ACL 2023, July 2023. [<a
-              href="https://aclanthology.org/2023.findings-acl.192/">paper</a>] [<a
-              href="https://arxiv.org/abs/2206.00330">arxiv</a>] [<a
-              href="https://github.com/takase/b2t_connection">code</a>]</p>
-        </article>
-        <article class="col-12 col-12-xsmall work-item">
-          <h3>Decomposing NeRF for Editing via Feature Field Distillation</h3>
-          <p><u>Sosuke Kobayashi</u>, Eiichi Matsumoto, Vincent Sitzmann</p>
-          <p>In Proceedings of NeurIPS 2022, Nov. 2022. [<a
-              href="https://proceedings.neurips.cc/paper_files/paper/2022/hash/93f250215e4889119807b6fac3a57aec-Abstract-Conference.html">paper</a>]
-            [<a href="https://arxiv.org/abs/2205.15585">arxiv</a>] [<a
-              href="https://github.com/pfnet-research/distilled-feature-fields">code</a>] [<a
-              href="https://pfnet-research.github.io/distilled-feature-fields/">project</a>]</p>
-        </article>
-        <article class="col-12 col-12-xsmall work-item">
-          <h3>Diverse Lottery Tickets Boost Ensemble from a Single Pretrained Model</h3>
-          <p><u>Sosuke Kobayashi</u>, Shun Kiyono, Jun Suzuki, Kentaro Inui</p>
-          <p>In Proceedings of Workshop on Challenges & Perspectives in Creating Large Language Models (BigScience), May
-            2022. [<a href="https://aclanthology.org/2022.bigscience-1.4/">paper</a>] [<a
-              href="https://arxiv.org/abs/2205.11833">arxiv</a>] [<a
-              href="https://aclanthology.org/2022.bigscience-1.4.bib">bib</a>]</p>
-        </article>
-        <article class="col-12 col-12-xsmall work-item">
+          {% elsif paper.title contains "VocabEncounter:" %}
           <h3>VocabEncounter: NMT-powered Vocabulary Learning by Presenting Computer-Generated Usages of Foreign Words
             into Users' Daily Lives</h3><!--'-->
-          <p>Riku Arakawa, Hiromu Yakura, <u>Sosuke Kobayashi</u></p>
-          <p>In Proceedings of CHI 2022, Apr. 2022. [<a href="https://doi.org/10.1145/3491102.3501839">paper</a>] [<a
-              href="./publications/bibs/chi22.bib">bib</a>]</p>
-        </article>
-        <article class="col-12 col-12-xsmall work-item">
-          <h3>Instance-Based Neural Dependency Parsing</h3>
-          <p>Hiroki Ouchi, Jun Suzuki, <u>Sosuke Kobayashi</u>, Sho Yokoi, Tatsuki Kuribayashi, Masashi Yoshikawa,
-            Kentaro Inui</p>
-          <p>TACL (Transactions of the Association for Computational Linguistics), Vol. 9, Dec. 2021. [<a
-              href="https://doi.org/10.1162/tacl_a_00439">paper</a>] [<a
-              href="https://arxiv.org/abs/2109.13497">arxiv</a>] [<a
-              href="https://direct.mit.edu/Citation/Download?resourceId=108864&resourceType=3&citationFormat=2">bib</a>]
+          {% else %}
+          <h3>{{ paper.title }}</h3>
+          {% endif %}
+          <p>{{ paper.authors }}</p>
+          <p>
+            {{ paper.venue }}
+            {% if paper.award %}({{ paper.award }}) {% endif %}
+            {% if paper.links %}
+            {% for link in paper.links %}
+            [<a href="{{ link.url }}">{{ link.name }}</a>]
+            {% endfor %}
+            {% endif %}
           </p>
+          {% if paper.note %}<p>{{ paper.note }}</p>{% endif %}
         </article>
-        <article class="col-12 col-12-xsmall work-item">
-          <h3>SHAPE: Shifted Absolute Position Embedding for Transformers</h3>
-          <p>Shun Kiyono, <u>Sosuke Kobayashi</u>, Jun Suzuki, Kentaro Inui</p>
-          <p>In Proceedings of EMNLP 2021, Nov. 2021. [<a
-              href="https://aclanthology.org/2021.emnlp-main.266/">paper</a>] [<a
-              href="https://arxiv.org/abs/2109.05644">arxiv</a>] [<a
-              href="https://aclanthology.org/2021.emnlp-main.266.bib">bib</a>]</p>
-        </article>
-        <article class="col-12 col-12-xsmall work-item">
-          <h3>*Efficient Estimation of Influence of a Training Instance</h3>
-          <p><u>Sosuke Kobayashi</u>, Sho Yokoi, Jun Suzuki, Kentaro Inui</p>
-          <p>Journal of Natural Language Processing (*written in Japanese, extended version of the paper at SustaiNLP
-            2020), Vol. 28-2, June 2021. (論文賞; Best Paper Award) [<a
-              href="https://www.jstage.jst.go.jp/article/jnlp/28/2/28_573/_pdf">paper</a>] [<a
-              href="https://arxiv.org/abs/2012.04207">arxiv</a>] [<a
-              href="https://github.com/soskek/turnover_dropout">code</a>] [<a
-              href="https://www.jstage.jst.go.jp/AF06S010ShoshJkuDld?sryCd=jnlp&noVol=28&noIssue=2&kijiCd=28_573&kijiLangKrke=ja&kijiToolIdHkwtsh=AT0073&request_locale=JA">bib</a>]
-          </p> <!-- 訓練事例の影響の軽量な推定 -->
-        </article>
-        <article class="col-12 col-12-xsmall work-item">
-          <h3>Efficient Estimation of Influence of a Training Instance</h3>
-          <p><u>Sosuke Kobayashi</u>, Sho Yokoi, Jun Suzuki, Kentaro Inui</p>
-          <p>In Proceedings of First Workshop on Simple and Efficient Natural Language Processing (SustaiNLP 2020), Nov.
-            2020. [<a href="https://www.aclweb.org/anthology/2020.sustainlp-1.6/">paper</a>] [<a
-              href="https://arxiv.org/abs/2012.04207">arxiv</a>] [<a
-              href="https://github.com/soskek/turnover_dropout">code</a>] [<a
-              href="https://www.aclweb.org/anthology/2020.sustainlp-1.6.bib">bib</a>]</p>
-        </article>
-        <article class="col-12 col-12-xsmall work-item">
-          <h3>All Word Embeddings from One Embedding</h3>
-          <p>Sho Takase, <u>Sosuke Kobayashi</u></p>
-          <p>In Proceedings of NeurIPS 2020, Dec. 2020. [<a
-              href="https://proceedings.neurips.cc//paper/2020/hash/275d7fb2fd45098ad5c3ece2ed4a2824-Abstract.html">paper</a>]
-            [<a href="https://arxiv.org/abs/2004.12073">arxiv</a>] [<a
-              href="https://github.com/takase/alone_seq2seq">code</a>] [<a
-              href="https://proceedings.neurips.cc/paper/2020/file/275d7fb2fd45098ad5c3ece2ed4a2824-Bibtex.bib">bib</a>]
-          </p>
-        </article>
-        <article class="col-12 col-12-xsmall work-item">
-          <h3>Instance-based Learning of Span Representations: A
-            Case Study through Named Entity Recognition</h3>
-          <p>Hiroki Ouchi, Jun Suzuki, <u>Sosuke Kobayashi</u>, Sho
-            Yokoi, Tatsuki Kuribayashi, Ryuto Konno, Kentaro Inui</p>
-          <p>In Proceedings of ACL 2020, July 2020.
-            [<a href="https://www.aclweb.org/anthology/2020.acl-main.575/">paper</a>] [<a
-              href="https://arxiv.org/abs/2004.14514">arxiv</a>] [<a
-              href="https://www.aclweb.org/anthology/2020.acl-main.575.bib">bib</a>]</p>
-        </article>
-        <article class="col-12 col-12-xsmall work-item">
-          <h3>Train Sparsely, Generate Densely: Memory-Efficient Unsupervised Training of High-Resolution Temporal GAN
-          </h3>
-          <p>Masaki Saito, Shunta Saito, Masanori Koyama, <u>Sosuke Kobayashi</u></p>
-          <p>International Journal of Computer Vision, May 2020.
-            [<a href="https://doi.org/10.1007/s11263-020-01333-y">paper</a>] [<a
-              href="https://arxiv.org/abs/1811.09245">arxiv</a>] [<a
-              href="https://github.com/pfnet-research/tgan2">code</a>]</p>
-        </article>
-        <article class="col-12 col-12-xsmall work-item">
-          <h3>Learning from Observation-Only Demonstration for
-            Task-Oriented Language Grounding via
-            Self-Examination</h3>
-          <p>Tsu-Jui Fu, Yuta Tsuboi, <u>Sosuke Kobayashi</u>, Yuta
-            Kikuchi</p>
-          <p>In Proceedings of 3rd Workshop on Visually Grounded
-            Interaction and Language (ViGIL), Dec. 2019. [<a
-              href="https://tsujuifu.github.io/pubs/neuripsw19_ood.pdf">paper</a>]</p>
-        </article>
-        <article class="col-12 col-12-xsmall work-item">
-          <h3>Data Interpolating Prediction: Alternative
-            Interpretation of Mixup</h3>
-          <p>Takuya Shimada, Shoichiro Yamaguchi, Kohei Hayashi,
-            <u>Sosuke Kobayashi</u>
-          </p>
-          <p>In Proceedings of 2nd Workshop on Learning with
-            Limited Labeled Data: Weak Supervision and Beyond (LLD),
-            May 2019. [<a href="https://openreview.net/pdf?id=rygEej0Eu4">paper</a>]
-            [<a href="https://arxiv.org/abs/1906.08412">arxiv</a>]</p>
-        </article>
-        <article class="col-12 col-12-xsmall work-item">
-          <h3>DQN-TAMER: Human-in-the-Loop Reinforcement Learning
-            with Intractable Feedback</h3>
-          <p>Riku Arakawa, <u>Sosuke Kobayashi</u>, Yuya Unno, Yuta
-            Tsuboi, Shin-ichi Maeda</p>
-          <p>In Proceedings of 2nd Workshop on Human-Robot Teaming
-            Beyond Human Operational Speeds and Robot Teammates
-            Operating in Dynamic, Unstructured Environments
-            (RT-DUNE), May 2019. [<a href="https://arxiv.org/abs/1810.11748">arxiv</a>]</p>
-        </article>
-        <article class="col-12 col-12-xsmall work-item">
-          <h3>Pointwise HSIC: A Linear-Time Kernelized
-            Co-occurrence Norm for Sparse Linguistic Expressions</h3>
-          <p>Sho Yokoi, <u>Sosuke Kobayashi</u>, Kenji Fukumizu,
-            Jun Suzuki, Kentaro Inui</p>
-          <p>In Proceedings of EMNLP 2018, Oct. 2018. [<a
-              href="https://www.aclweb.org/anthology/D18-1203.pdf">paper</a>]
-            [<a href="https://arxiv.org/abs/1809.00800">arxiv</a>]
-            [<a
-              href="https://speakerdeck.com/eumesy/pointwise-hsic-a-linear-time-kernelized-co-occurrence-norm-for-sparse-linguistic-expressions">slide</a>]
-            [<a href="https://www.aclweb.org/anthology/D18-1203.bib">bib</a>]</p>
-        </article>
-        <article class="col-12 col-12-xsmall work-item">
-          <h3>Unsupervised Learning of Style-sensitive Word
-            Vectors</h3>
-          <p>Reina Akama, Kento Watanabe, Sho Yokoi, <u>Sosuke
-              Kobayashi</u>, Kentaro Inui</p>
-          <p>In Proceedings of ACL 2018, July 2018. [<a href="https://www.aclweb.org/anthology/P18-2091.pdf">paper</a>]
-            [<a href="https://arxiv.org/abs/1805.05581">arxiv</a>]
-            [<a href="https://github.com/jqk09a/style-sensitive-word-vectors">code</a>]
-            [<a href="https://www.aclweb.org/anthology/P18-2091.bib">bib</a>]
-            [<a href="https://jqk09a.github.io/style-sensitive-word-vectors/">project</a>]</p>
-        </article>
-        <article class="col-12 col-12-xsmall work-item">
-          <h3>Contextual Augmentation: Data Augmentation by Words
-            with Paradigmatic Relations</h3>
-          <p><u>Sosuke Kobayashi</u></p>
-          <p>In Proceedings of NAACL HLT 2018, June 2018. [<a
-              href="https://www.aclweb.org/anthology/N18-2072.pdf">paper</a>]
-            [<a href="https://arxiv.org/abs/1805.06201">arxiv</a>]
-            [<a href="https://github.com/pfnet-research/contextual_augmentation">code</a>]
-            [<a href="https://www.aclweb.org/anthology/N18-2072.bib">bib</a>]</p>
-        </article>
-        <article class="col-12 col-12-xsmall work-item">
-          <h3>Interactively Picking Real-World Objects with
-            Unconstrained Spoken Language Instructions</h3>
-          <p>Jun Hatori*, Yuta Kikuchi*, <u>Sosuke Kobayashi</u>*,
-            Kuniyuki Takahashi*, Yuta Tsuboi*, Yuya Unno*, Wilson Ko,
-            Jethro Tan (* equally contributed)</p>
-          <p>In Proceedings of International Conference on Robotics
-            and Automation (ICRA) 2018, June 2018. (Best Paper Award
-            on Human-Robot Interaction (HRI)) [<a href="https://arxiv.org/pdf/1710.06280.pdf">paper</a>]
-            [<a href="https://arxiv.org/abs/1710.06280">arxiv</a>]
-            [<a href="https://github.com/pfnet-research/picking-instruction">dataset</a>]
-            [<a href="https://projects.preferred.jp/interactive-robot/#cite">bib</a>]
-            [<a href="https://projects.preferred.jp/interactive-robot/">project</a>]
-            [<a href="https://www.youtube.com/watch?v=DGJazkyw0Ws&amp;feature=youtu.be">video</a>]</p>
-          <p>A subsequent work of this is on <a href="https://projects.preferred.jp/tidying-up-robot/en/">an autonomous
-              robot system demo</a>
-            (<a
-              href="https://www.wsj.com/articles/attention-parents-this-robot-will-clean-up-your-childs-toys-1539602386">WSJ</a>,
-            <a href="http://www.bbc.com/future/bespoke/the-disruptors/making-a-better-future/">BBC</a>,
-            <a href="https://blogs.nvidia.com/blog/2019/03/20/home-helper-startups-robot-can-tidy-up-a-messy-house/">NVIDIA
-              GTC 2019</a>)
-          </p>
-        </article>
-        <article class="col-12 col-12-xsmall work-item">
-          <h3>A Neural Language Model for Dynamically Representing
-            the Meanings of Unknown Words and Entities in a
-            Discourse</h3>
-          <p><u>Sosuke Kobayashi</u>, Naoaki Okazaki, Kentaro
-            Inui</p>
-          <p>In Proceedings of IJCNLP 2017, Nov. 2017. [<a
-              href="https://www.aclweb.org/anthology/I17-1048.pdf">paper</a>]
-            [<a href="https://arxiv.org/abs/1709.01679">arxiv</a>]
-            [<a href="./publications/slide_kobayashi_ijcnlp2017.pdf">slide</a>]
-            [<a href="https://www.aclweb.org/anthology/I17-1048.bib">bib</a>]
-            [<a
-              href="https://raw.githubusercontent.com/soskek/dynamic_neural_text_model/master/misc/dynamic_entity_representation_in_hikaru_no_go.gif">video</a>]
-          </p>
-        </article>
-        <article class="col-12 col-12-xsmall work-item">
-          <h3>Generating Stylistically Consistent Dialog Responses
-            with Transfer Learning</h3>
-          <p>Reina Akama, Kazuaki Inada, Naoya Inoue, <u>Sosuke
-              Kobayashi</u>, Kentaro Inui</p>
-          <p>In Proceedings of IJCNLP 2017, Nov. 2017. [<a
-              href="https://www.aclweb.org/anthology/I17-2069.pdf">paper</a>]
-            [<a href="https://www.aclweb.org/anthology/I17-2069.bib">bib</a>]</p>
-        </article>
-        <article class="col-12 col-12-xsmall work-item">
-          <h3>An RNN-based Binary Classifier for the Story Cloze
-            Test</h3>
-          <p>Melissa Roemmele, <u>Sosuke Kobayashi</u>, Naoya
-            Inoue, Andrew Gordon</p>
-          <p>In Proceedings of 2nd Workshop on Linking Models of
-            Lexical, Sentential and Discourse-level Semantics
-            (LSDSem), Apr. 2017. [<a href="https://www.aclweb.org/anthology/W17-0911.pdf">paper</a>]
-            [<a href="https://www.aclweb.org/anthology/W17-0911.bib">bib</a>]</p>
-        </article>
-        <article class="col-12 col-12-xsmall work-item">
-          <h3>Explaining Potential Risks in Traffic Scenes by
-            Combining Logical Inference and Physics Simulation</h3>
-          <p>Ryo Takahashi, Naoya Inoue, Yasutaka Kuriya, <u>Sosuke
-              Kobayashi</u>, Kentaro Inui</p>
-          <p>International Journal of Machine
-            Learning and Computing (IJMLC), Oct. 2016. [<a href="http://www.ijmlc.org/vol6/606-A7.pdf">paper</a>]</p>
-        </article>
-        <article class="col-12 col-12-xsmall work-item">
-          <h3>Tohoku at SemEval-2016 Task 6: Feature-based Model
-            versus Convolutional Neural Network for Stance
-            Detection</h3>
-          <p>Yuki Igarashi, Hiroya Komatsu, <u>Sosuke
-              Kobayashi</u>, Naoaki Okazaki, Kentaro Inui</p>
-          <p>In Proceedings of 10th International Workshop on
-            Semantic Evaluation (SemEval 2016), June 2016. [<a
-              href="https://www.aclweb.org/anthology/S16-1065.pdf">paper</a>]
-            [<a href="https://www.aclweb.org/anthology/S16-1065.bib">bib</a>]</p>
-        </article>
-        <article class="col-12 col-12-xsmall work-item">
-          <h3>Dynamic Entity Representation with Max-pooling
-            Improves Machine Reading</h3>
-          <p><u>Sosuke Kobayashi</u>, Ran Tian, Naoaki Okazaki,
-            Kentaro Inui</p>
-          <p>In Proceedings of NAACL HLT 2016, June 2016. [<a
-              href="https://www.aclweb.org/anthology/N16-1099.pdf">paper</a>]
-            [<a href="https://github.com/soskek/der-network">code</a>]
-            [<a href="https://www.aclweb.org/anthology/N16-1099.bib">bib</a>]</p>
-        </article>
-        <article class="col-12 col-12-xsmall work-item">
-          <h3>Recognizing Potential Traffic Risks through
-            Logic-based Deep Scene Understanding</h3>
-          <p>Naoya Inoue, Yasutaka Kuriya, <u>Sosuke Kobayashi</u>,
-            Kentaro Inui</p>
-          <p>In Proceedings of 22nd ITS World Congress, Oct. 2015.
-            (Best of the Rest) [<a
-              href="http://www.cl.ecei.tohoku.ac.jp/~naoya-i/resources/itswc2015_paper.pdf">paper</a>]</p>
-        </article>
+        {% endfor %}
       </div>
     </section><!-- Three -->
     <details>
       <summary>Other Publications (mainly in Japanese)</summary>
       <section id="three">
         <div class="row">
-          <!--<article class="col-12 col-12-xsmall work-item" style="margin: 0 0 1em 0;">-->
+          {% for paper in site.data.publications_other %}
           <article class="col-12 col-12-xsmall work-item">
-            <h3>事前学習における学習率スケジューラが事後学習後の性能に与える影響</h3>
-            <p>矢野一樹, 清野舜, <u>小林颯介</u>, 高瀬翔, 鈴木潤</p>
-            <p>In Proceedings of 言語処理学会第32回年次大会, Mar. 2026.</p>
-          </article>
-          <article class="col-12 col-12-xsmall work-item">
-            <h3>新規視点画像生成による車載3D物体検出器のカメラ高データ増強</h3>
-            <p>髙橋友紀子, 徐天涵, <u>小林颯介</u>, 加藤大晴, 髙濱敦, 加藤雄大, 横山美優, 光森卓, 高椋佐和</p>
-            <p>In Proceedings of 画像の認識・理解シンポジウム MIRU2025, July 2025.</p>
-          </article>
-          <article class="col-12 col-12-xsmall work-item">
-            <h3>モデル拡張を用いた段階的事前学習によるモデル系列の効率的な構築</h3>
-            <p>矢野一樹, 高瀬翔, <u>小林颯介</u>, 清野舜, 鈴木潤</p>
-            <p>In Proceedings of 言語処理学会第31回年次大会, Mar. 2025. [<a
-                href="https://www.anlp.jp/proceedings/annual_meeting/2025/pdf_dir/C8-4.pdf">paper</a>]</p>
-          </article>
-          <article class="col-12 col-12-xsmall work-item">
-            <h3>ユーザ教示による Structure-from-Motion 再構成エラーの修正</h3>
-            <p>金澤爽太郎, 周矜瑶, 菊池悠太, <u>小林颯介</u>, 李淳雨, マートリッチファブリス, 五十嵐健夫, 樋口啓太</p>
-            <p>In Proceedings of INTERACTION2025, Mar. 2025. [<a
-                href="https://confman.interaction-ipsj.org/cacheimg/i2025/export/webcat_0.html#pid06">abstract</a>]</p>
-          </article>
-          <article class="col-12 col-12-xsmall work-item">
-            <h3>四次元再構成視聴におけるインタラクティブなカメラサーフェスの提案</h3>
-            <p>元村愛美, 菊池悠太, <u>小林颯介</u>, Fabrice Matulic, 五十嵐健夫, 樋口啓太</p>
-            <p>In Proceedings of INTERACTION2025, Mar. 2025. [<a
-                href="https://confman.interaction-ipsj.org/cacheimg/i2025/export/webcat_2.html#pid2B34">abstract</a>]
+            <h3>{{ paper.title }}</h3>
+            <p>{{ paper.authors }}</p>
+            <p>
+              {{ paper.venue }}
+              {% if paper.award %}({{ paper.award }}) {% endif %}
+              {% if paper.links %}
+              {% for link in paper.links %}
+              [<a href="{{ link.url }}">{{ link.name }}</a>]
+              {% endfor %}
+              {% endif %}
             </p>
+            {% if paper.note %}<p>{{ paper.note }}</p>{% endif %}
           </article>
-          <article class="col-12 col-12-xsmall work-item">
-            <h3>大規模言語モデル事前学習の安定化</h3>
-            <p>高瀬翔, 清野舜, <u>小林颯介</u>, 鈴木潤</p>
-            <p>In Proceedings of 言語処理学会第30回年次大会, Mar. 2024. (委員特別賞; Special Committee Award) [<a
-                href="https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/A11-2.pdf">paper</a>]</p>
-          </article>
-          <article class="col-12 col-12-xsmall work-item">
-            <h3>Transformer を多層にする際の勾配消失問題と解決法について</h3>
-            <p>高瀬翔, 清野舜, <u>小林颯介</u>, 鈴木潤</p>
-            <p>In Proceedings of 言語処理学会第28回年次大会, Mar. 2022. (優秀賞; Outstanding Paper Award) [<a
-                href="https://www.anlp.jp/proceedings/annual_meeting/2022/pdf_dir/A2-5.pdf">paper</a>]</p>
-          </article>
-          <article class="col-12 col-12-xsmall work-item">
-            <h3>シフト付き絶対位置埋め込み</h3>
-            <p>清野舜, <u>小林颯介</u>, 鈴木潤, 乾健太郎</p>
-            <p>In Proceedings of 言語処理学会第28回年次大会, Mar. 2022. (若手奨励賞; Young Researcher Award) [<a
-                href="https://www.anlp.jp/proceedings/annual_meeting/2022/pdf_dir/PH2-7.pdf">paper</a>]</p>
-          </article>
-          <article class="col-12 col-12-xsmall work-item">
-            <h3>事例ベース依存構造解析のための依存関係表現学習</h3>
-            <p>大内啓樹, 鈴木潤, <u>小林颯介</u>, 横井祥, 栗林樹生, 吉川将司, 乾健太郎</p>
-            <p>In Proceedings of 言語処理学会第27回年次大会, Mar. 2021. [<a
-                href="https://www.anlp.jp/proceedings/annual_meeting/2021/pdf_dir/D3-4.pdf">paper</a>]</p>
-          </article>
-          <article class="col-12 col-12-xsmall work-item">
-            <h3>単一事例エキスパートの統合によるドメイン適応</h3>
-            <p>清野舜, <u>小林颯介</u>, 鈴木潤, 乾健太郎</p>
-            <p>In Proceedings of 言語処理学会第27回年次大会, Mar. 2021. [<a
-                href="https://www.anlp.jp/proceedings/annual_meeting/2021/pdf_dir/B1-4.pdf">paper</a>]</p>
-          </article>
-          <article class="col-12 col-12-xsmall work-item">
-            <h3>スパン間の類似性に基づく事例ベース構造予測</h3>
-            <p>大内啓樹, 鈴木潤, <u>小林颯介</u>, 横井祥, 栗林樹生, 乾健太郎</p>
-            <p>In Proceedings of 言語処理学会第26回年次大会, Mar. 2020. [<a
-                href="https://www.anlp.jp/proceedings/annual_meeting/2020/pdf_dir/D1-1.pdf">paper</a>]</p>
-          </article>
-          <article class="col-12 col-12-xsmall work-item">
-            <h3>実世界での話し言葉指示による物体移動：深層学習による画像・言語理解</h3>
-            <p>高橋城志*, 羽鳥潤*, 菊池悠太*, <u>小林颯介</u>*, 坪井祐太*, 海野裕也*, 中島統太郎,
-              福田昌昭, Wilson Ko, Jethro Tan (* equally contributed)</p>
-            <p>In Proceedings of 第36回日本ロボット学会学術講演会, Sep. 2018.
-              (研究奨励賞; Young Investigation Excellence Award) [<a href="./publications/rsj2018-nlp-robot.pdf">paper</a>]
-            </p>
-          </article>
-          <article class="col-12 col-12-xsmall work-item">
-            <h3>カーネル法に基づく疎な言語表現のための高速計算可能な共起尺度</h3>
-            <p>横井祥, <u>小林颯介</u>, 福水健次, 乾健太郎</p>
-            <p>In Proceedings of 第32回人工知能学会全国大会, June 2018. (全国大会優秀賞;
-              JSAI Annual Conference Award) [<a
-                href="https://confit.atlas.jp/guide/event-img/jsai2018/1J2-01/public/pdf?type=in">paper</a>]</p>
-          </article>
-          <article class="col-12 col-12-xsmall work-item">
-            <h3>スタイルの類似性を捉えた単語ベクトルの教師なし学習</h3>
-            <p>赤間怜奈, 渡邉研斗, 横井祥, <u>小林颯介</u>, 乾健太郎</p>
-            <p>In Proceedings of 第32回人工知能学会全国大会, June 2018. (全国大会優秀賞;
-              JSAI Annual Conference Award) [<a
-                href="https://confit.atlas.jp/guide/event-img/jsai2018/1N2-03/public/pdf?type=in">paper</a>]</p>
-          </article>
-          <article class="col-12 col-12-xsmall work-item">
-            <h3>実世界におけるインタラクティブな物体指示</h3>
-            <p>羽鳥潤*, 菊池悠太*, <u>小林颯介</u>*, 高橋城志*, 坪井祐太*, 海野裕也*, Wilson
-              Ko, Jethro Tan (* equally contributed)</p>
-            <p>In Proceedings of 言語処理学会第24回年次大会, Mar. 2018. [<a
-                href="https://anlp.jp/proceedings/annual_meeting/2018/pdf_dir/C5-1.pdf">paper</a>]</p>
-          </article>
-          <article class="col-12 col-12-xsmall work-item">
-            <h3>カーネル法に基づく疎な言語表現のための共起尺度</h3>
-            <p>横井祥, <u>小林颯介</u>, 福水健次, 乾健太郎</p>
-            <p>In Proceedings of 言語処理学会第24回年次大会, Mar. 2018. [<a
-                href="https://anlp.jp/proceedings/annual_meeting/2018/pdf_dir/C7-1.pdf">paper</a>]</p>
-          </article>
-          <article class="col-12 col-12-xsmall work-item">
-            <h3>サンプリング戦略に基づく単語ベクトルの意味成分とスタイル成分の分離</h3>
-            <p>赤間怜奈, 横井祥, 渡邉研斗, <u>小林颯介</u>, 田然, 乾健太郎</p>
-            <p>In Proceedings of 言語処理学会第24回年次大会, Mar. 2018. [<a
-                href="https://anlp.jp/proceedings/annual_meeting/2018/pdf_dir/D4-3.pdf">paper</a>]</p>
-          </article>
-          <article class="col-12 col-12-xsmall work-item">
-            <h3>カーネル法に基づく共起尺度</h3>
-            <p>横井祥, 福水健次, <u>小林颯介</u>, 乾健太郎</p>
-            <p>In Proceedings of 第20回情報論的学習理論ワークショップ (IBIS), Nov.
-              2017. [<a href="http://www.cl.ecei.tohoku.ac.jp/~yokoi/docs/201711-ibis-poster.pdf">slide</a>]</p>
-          </article>
-          <article class="col-12 col-12-xsmall work-item">
-            <h3>対話返答生成における個性の追加反映</h3>
-            <p>濱田晃一, 藤川和樹, <u>小林颯介</u>, 菊池悠太, 海野裕也, 土田正明</p>
-            <p>In Proceedings of 第232回 情報処理学会 自然言語処理研究会, July 2017.
-              [<a
-                href="https://ipsj.ixsq.nii.ac.jp/ej/index.php?active_action=repository_view_main_item_detail&amp;page_id=13&amp;block_id=8&amp;item_id=182719&amp;item_no=1">paper</a>]
-              [<a href="https://www.slideshare.net/hamadakoichi/neural-dialogue-generation">slide</a>]
-              [<a
-                href="https://ipsj.ixsq.nii.ac.jp/ej/?action=repository_bibtex&amp;itemId=182719&amp;itemNo=1">bib</a>]
-            </p>
-          </article>
-          <article class="col-12 col-12-xsmall work-item">
-            <h3>転移学習を用いた対話応答のスタイル制御</h3>
-            <p>赤間怜奈, 稲田和明, <u>小林颯介</u>, 佐藤祥多, 乾健太郎</p>
-            <p>In Proceedings of 言語処理学会第23回年次大会, Mar. 2017. [<a
-                href="https://www.anlp.jp/proceedings/annual_meeting/2017/pdf_dir/B3-3.pdf">paper</a>]</p>
-          </article>
-          <article class="col-12 col-12-xsmall work-item">
-            <h3>Recognizing Potential Traffic Risks through
-              Logic-based Deep Scene Understanding</h3>
-            <p>Shunya Maruta, Yasutaka Kuriya, Naoya Inoue, <u>Sosuke
-                Kobayashi</u>, Kentaro Inui</p>
-            <p>In Proceedings of Denso Technical Review, 2016.
-              (Modified version of the paper of 22nd ITSWC) [<a href="https://ci.nii.ac.jp/naid/40021053584">paper</a>]
-            </p>
-          </article>
-          <article class="col-12 col-12-xsmall work-item">
-            <h3>共参照関係に基づく分散表現の共有と動的更新</h3>
-            <p><u>小林颯介</u>, 岡崎直観, 乾健太郎</p>
-            <p>In Proceedings of NLP若手の会 (YANS) 第11回シンポジウム, Aug.
-              2016. (奨励賞; Encouragement Award)</p>
-          </article>
-          <article class="col-12 col-12-xsmall work-item">
-            <h3>談話内における局所文脈の動的分散表現</h3>
-            <p><u>小林颯介</u>, 田然, 岡崎直観, 乾健太郎</p>
-            <p>In Proceedings of 言語処理学会第22回年次大会, Mar. 2016. (優秀賞;
-              Outstanding Paper Award) [<a
-                href="https://www.anlp.jp/proceedings/annual_meeting/2016/pdf_dir/A7-5.pdf">paper</a>]</p>
-          </article>
-          <article class="col-12 col-12-xsmall work-item">
-            <h3>再帰型ニューラルネットワークを用いた対話破綻検出と言語モデルのマルチタスク学習</h3>
-            <p><u>小林颯介</u>, 海野裕也, 福田昌昭</p>
-            <p>In Proceedings of 第75回 人工知能学会 言語・音声理解と対話処理研究会, Oct.
-              2015. [<a
-                href="https://jsai.ixsq.nii.ac.jp/ej/?action=pages_view_main&amp;active_action=repository_view_main_item_detail&amp;item_id=760&amp;item_no=1&amp;page_id=13&amp;block_id=23">paper</a>]
-            </p>
-          </article>
-          <article class="col-12 col-12-xsmall work-item">
-            <h3>物理モデルと論理推論の統合による運転シーンの潜在的危険の予測</h3>
-            <p><u>小林颯介</u>, 井之上直也, 栗谷康隆, 近藤敏之, 安部克則, 奥野英一, 乾健太郎</p>
-            <p>In Proceedings of 自動車技術会 2015年春季大会学術講演会講演予稿集, May
-              2015.</p>
-          </article>
+          {% endfor %}
         </div>
       </section><!-- Three -->
     </details>
