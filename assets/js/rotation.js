@@ -16,26 +16,44 @@ document.addEventListener("DOMContentLoaded", () => {
             // Wrap characters in span for independent rotation
             // Collapse multiple whitespaces and newlines into single spaces to avoid huge gaps
             const text = title.textContent.replace(/\s+/g, ' ').trim();
-            title.innerHTML = '';
+            // Apply word-break styling to the parent h3 to prevent awkward wrapping of english words with span tags
+            title.style.wordBreak = "keep-all";
+            title.style.overflowWrap = "break-word";
+            title.style.display = "flex";
+            title.style.flexWrap = "wrap";
+            title.style.rowGap = "0.2em";
 
-            for (let i = 0; i < text.length; i++) {
-                const span = document.createElement("span");
-                span.textContent = text[i];
+            // Split into words first to preserve wrapping
+            const words = text.split(' ');
 
-                // Allow rotation without breaking flow, preserve spaces
-                span.style.display = "inline-block";
-                span.style.transformOrigin = "center center";
-                span.style.transition = "transform 0.1s linear"; // Optional slight visual tweak for smoothing
+            for (let w = 0; w < words.length; w++) {
+                const wordStr = words[w];
+                const wordSpan = document.createElement("span");
+                wordSpan.style.whiteSpace = "nowrap"; // Keep word together
+                wordSpan.style.display = "inline-flex";
 
-                if (text[i] === ' ') {
-                    span.style.whiteSpace = "pre";
+                for (let i = 0; i < wordStr.length; i++) {
+                    const charSpan = document.createElement("span");
+                    charSpan.textContent = wordStr[i];
+
+                    // Allow rotation without breaking flow
+                    charSpan.style.display = "inline-block";
+                    charSpan.style.transformOrigin = "center center";
+                    charSpan.style.transition = "transform 0.1s linear";
+
+                    rotatableChars.push(charSpan);
+                    wordSpan.appendChild(charSpan);
                 }
 
-                // Only non-space chars get tracked to save performance
-                if (text[i].trim() !== '') {
-                    rotatableChars.push(span);
+                title.appendChild(wordSpan);
+
+                // Add space between words (except after the last word)
+                if (w < words.length - 1) {
+                    const spaceSpan = document.createElement("span");
+                    spaceSpan.textContent = ' ';
+                    spaceSpan.style.whiteSpace = "pre";
+                    title.appendChild(spaceSpan);
                 }
-                title.appendChild(span);
             }
         });
     });
