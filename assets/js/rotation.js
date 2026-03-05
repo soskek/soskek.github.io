@@ -16,6 +16,8 @@ document.addEventListener("DOMContentLoaded", () => {
             // Wrap characters in span for independent rotation
             // Collapse multiple whitespaces and newlines into single spaces to avoid huge gaps
             const text = title.textContent.replace(/\s+/g, ' ').trim();
+            title.innerHTML = '';
+
             // Apply word-break styling to the parent h3 to prevent awkward wrapping of english words with span tags
             title.style.wordBreak = "keep-all";
             title.style.overflowWrap = "break-word";
