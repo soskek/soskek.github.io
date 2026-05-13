@@ -4,6 +4,8 @@
   links:
     - name: "paper"
       url: "https://openreview.net/forum?id=JnebU2QLdH"
+    - name: "arxiv"
+      url: "https://arxiv.org/abs/2603.16127"
 
 - title: "When Does Metadata Conditioning (NOT) Work for Language Model Pre-Training? A Study with Context-Free Grammars"
   authors: "Rei Higuchi, Ryotaro Kawata, Naoki Nishikawa, Kazusato Oko, Shoichiro Yamaguchi, <u>Sosuke Kobayashi</u>, Seiya Tokui, Kohei Hayashi, Daisuke Okanohara, Taiji Suzuki"
