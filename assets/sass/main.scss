@@ -1058,14 +1058,48 @@ $size-header-pad: 4em;
 			margin: 0 0 (_size(element-margin) * 0.25) 0;
 		}
 
-		p {
-			font-size: 0.8em;
-			line-height: 1.5em;
-			margin: 0;
+			p {
+				font-size: 0.8em;
+				line-height: 1.5em;
+				margin: 0;
+			}
 		}
-	}
 
-/* Header */
+	/* Profile */
+
+		.profile-summary {
+			margin-bottom: (_size(element-margin) * 0.5);
+		}
+
+		.profile-focus {
+			font-size: 0.9em;
+			line-height: 1.55em;
+			margin: 0 0 1.5em 0;
+			padding-left: 1em;
+
+			li {
+				margin: 0 0 0.25em 0;
+				padding-left: 0.35em;
+			}
+		}
+
+		.compact-list {
+			font-size: 0.8em;
+			margin-bottom: 1.5em;
+		}
+
+		.minor-details {
+			font-size: 0.8em;
+			margin: 0.5em 0 0 0;
+
+			summary {
+				color: _palette(fg);
+				cursor: pointer;
+				margin: 0 0 0.75em 0;
+			}
+		}
+
+	/* Header */
 
 	#header {
 		@include vendor('display', 'flex');
@@ -1574,16 +1608,16 @@ $size-header-pad: 4em;
 
 		/* Main */
 
-			#main {
-				padding: ($size-header-pad * 1.5) $size-header-pad (($size-header-pad * 1.5) - _size(element-margin)) $size-header-pad;
+				#main {
+					padding: ($size-header-pad * 1.5) $size-header-pad (($size-header-pad * 1.5) - _size(element-margin)) $size-header-pad;
 
-				> section {
-					margin: ($size-header-pad * 1.5) 0 0 0;
-					padding: ($size-header-pad * 1.5) 0 0 0;
+					> section {
+						margin: ($size-header-pad * 1.5) 0 0 0;
+						padding: ($size-header-pad * 1.5) 0 0 0;
+					}
 				}
-			}
 
-		/* Poptrox */
+			/* Poptrox */
 
 			.poptrox-popup {
 				border-radius: 0;

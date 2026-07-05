@@ -1,0 +1,27 @@
+- title: "PFN 3D Scan and 3D/4D demos"
+  summary: "Public pages and videos around PFN's 3D reconstruction work."
+  links:
+    - name: "PFN 3D"
+      url: "https://pfn3d.com/"
+    - name: "overview"
+      url: "https://pfn3d.com/overview"
+    - name: "YouTube"
+      url: "https://www.youtube.com/@pfn3d/videos"
+
+- title: "PFN news release on virtual production"
+  summary: "A public PFN news release related to AI-assisted 3DCG/video production."
+  links:
+    - name: "PFN news"
+      url: "https://www.preferred.jp/ja/news/pr20260413"
+
+- title: "CGWORLD interview on PFN's AI x 3D work"
+  summary: "A public CGWORLD article/interview related to PFN's AI and 3D work."
+  links:
+    - name: "CGWORLD"
+      url: "https://cgworld.jp/regular/202605-chiyama-t-13-1.html"
+
+- title: "Selected talks"
+  summary: "Public talks and invited sessions outside the paper list."
+  links:
+    - name: "YANS 2023"
+      url: "https://yans.anlp.jp/entry/yans2023invitesession#%E8%A8%80%E8%AA%9E%E3%81%A8%E4%B8%96%E7%95%8C%E3%81%AE%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92%E5%B0%8F%E6%9E%97-%E9%A2%AF%E4%BB%8B-%E6%B0%8FPreferred-Networks--%E6%9D%B1%E5%8C%97%E5%A4%A7%E5%AD%A6"

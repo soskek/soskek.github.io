@@ -2566,13 +2566,47 @@ input, select, textarea {
 			margin: 0 0 0.1em 0;
 		}
 
-		.work-item p {
-			font-size: 0.8em;
-			line-height: 1.5em;
-			margin: 0;
+			.work-item p {
+				font-size: 0.8em;
+				line-height: 1.5em;
+				margin: 0;
+			}
+
+	/* Profile */
+
+		.profile-summary {
+			margin-bottom: 1em;
 		}
 
-/* Header */
+		.profile-focus {
+			font-size: 0.9em;
+			line-height: 1.55em;
+			margin: 0 0 1.5em 0;
+			padding-left: 1em;
+		}
+
+			.profile-focus li {
+				margin: 0 0 0.25em 0;
+				padding-left: 0.35em;
+			}
+
+		.compact-list {
+			font-size: 0.8em;
+			margin-bottom: 1.5em;
+		}
+
+		.minor-details {
+			font-size: 0.8em;
+			margin: 0.5em 0 0 0;
+		}
+
+			.minor-details summary {
+				color: #a2a2a2;
+				cursor: pointer;
+				margin: 0 0 0.75em 0;
+			}
+
+	/* Header */
 
 	#header {
 		display: -moz-flex;
