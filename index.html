@@ -158,7 +158,7 @@
       <ul class="profile-focus">
         <li><b>Language and learning systems:</b> LLM training, model stability, data augmentation, influence estimation,
           and NLP.</li>
-        <li><b>Vision, 3D/4D, and spatial AI:</b> high-quality reconstruction, neural scene representations, computer
+        <li><b>Vision, 3D/4D, and spatial AI:</b> 3D reconstruction, neural scene representations, computer
           vision, multimodal learning, and practical use of 3D data.</li>
         <li><b>Robotics and agents:</b> language-grounded robot control and agent interaction.</li>
         <li><b>Applied AI / research engineering:</b> PoCs, products, technical proposals, and client-facing machine
@@ -175,15 +175,7 @@
       <div class="row">
         {% for paper in site.data.publications_refereed %}
         <article class="col-12 col-12-xsmall work-item">
-          {% if paper.title contains "A Study with Context-Free" %}
-          <h3>When Does Metadata Conditioning (NOT) Work for Language Model Pre-Training? A Study with Context-Free
-            Grammars</h3>
-          {% elsif paper.title contains "VocabEncounter:" %}
-          <h3>VocabEncounter: NMT-powered Vocabulary Learning by Presenting Computer-Generated Usages of Foreign Words
-            into Users' Daily Lives</h3><!--'-->
-          {% else %}
           <h3>{{ paper.title }}</h3>
-          {% endif %}
           <p>{{ paper.authors }}</p>
           <p>
             {{ paper.venue }}
