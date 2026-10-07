@@ -245,7 +245,14 @@
     <section id="last">
       <h2>Experience and Service</h2>
       <div class="activity-panel">
-        <h5 id="education_and_experience">Education and Experience</h5>
+        <h5 id="education_and_experience">Professional Experience</h5>
+        <ul class="compact-list">
+          {% for item in site.data.activities_education.experience %}
+          <li>{{ item.date }}: {{ item.description }}</li>
+          {% endfor %}
+        </ul>
+
+        <h5>Education</h5>
         <ul class="compact-list">
           {% for item in site.data.activities_education.education %}
           <li>{{ item.date }}: {{ item.description }}</li>
