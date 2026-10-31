@@ -1,3 +1,10 @@
+- title: "Head Dimension Matters in Language Models for Long-Context Retrieval"
+  authors: "Seiya Tokui, Shoichiro Yamaguchi, <u>Sosuke Kobayashi</u>"
+  venue: "arXiv preprint arXiv:2610.32213, Oct. 23, 2026."
+  links:
+    - name: "arxiv"
+      url: "https://arxiv.org/abs/2610.32213"
+
 - title: "Pre-training LLM without Learning Rate Decay Enhances Supervised Fine-Tuning"
   authors: "Kazuki Yano, Shun Kiyono, <u>Sosuke Kobayashi</u>, Sho Takase, Jun Suzuki"
   venue: "In Proceedings of International Conference on Learning Representations (ICLR) 2026, Apr. 2026."
