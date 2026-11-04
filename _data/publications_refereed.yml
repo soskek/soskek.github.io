@@ -1,3 +1,10 @@
+- title: "Coarse Semantic Blocks for Efficient Training-Free Sparse Attention"
+  authors: "<u>Sosuke Kobayashi</u>, Shoichiro Yamaguchi, Seiya Tokui"
+  venue: "Preprint, Nov. 2026."
+  links:
+    - name: "arxiv"
+      url: "https://arxiv.org/abs/2611.04313"
+
 - title: "Head Dimension Matters in Language Models for Long-Context Retrieval"
   authors: "Seiya Tokui, Shoichiro Yamaguchi, <u>Sosuke Kobayashi</u>"
   venue: "Preprint, Oct. 2026."
